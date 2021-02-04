@@ -13,6 +13,7 @@
 		2E1BC4C425C75B7B0087D4BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1BC4C225C75B7B0087D4BB /* Main.storyboard */; };
 		2E1BC4C625C75B7E0087D4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E1BC4C525C75B7E0087D4BB /* Assets.xcassets */; };
 		2E1BC4C925C75B7E0087D4BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1BC4C725C75B7E0087D4BB /* LaunchScreen.storyboard */; };
+		2E1BC4D225C75C9A0087D4BB /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2E1BC4D125C75C9A0087D4BB /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2E1BC4C525C75B7E0087D4BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E1BC4C825C75B7E0087D4BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E1BC4CA25C75B7E0087D4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E1BC4D125C75C9A0087D4BB /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2E1BC4C525C75B7E0087D4BB /* Assets.xcassets */,
 				2E1BC4C725C75B7E0087D4BB /* LaunchScreen.storyboard */,
 				2E1BC4CA25C75B7E0087D4BB /* Info.plist */,
+				2E1BC4D125C75C9A0087D4BB /* start.txt */,
 			);
 			path = Project5;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E1BC4C925C75B7E0087D4BB /* LaunchScreen.storyboard in Resources */,
+				2E1BC4D225C75C9A0087D4BB /* start.txt in Resources */,
 				2E1BC4C625C75B7E0087D4BB /* Assets.xcassets in Resources */,
 				2E1BC4C425C75B7B0087D4BB /* Main.storyboard in Resources */,
 			);
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6YJ66K4N63;
 				INFOPLIST_FILE = Project5/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6YJ66K4N63;
 				INFOPLIST_FILE = Project5/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
